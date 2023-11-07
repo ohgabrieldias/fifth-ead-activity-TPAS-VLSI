@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Dropbox\GraduacaoEC\Cadeiras\2023.2\VLSI\ProjetosQuartus\fibonacci
+vtestbench
+!i10b 1
+!s100 [1_UNf;Q9jLWmW:Dl]eY91
+Ic??JjaZR:^jOQlKKV>>;L2
+VhGfW:390DM[oDMzegDH9`2
+dD:\Dropbox\GraduacaoEC\Cadeiras\2023.2\VLSI\ProjetosQuartus\simulations\fibonacci
+w1697507816
+8D:/Dropbox/GraduacaoEC/Cadeiras/2023.2/VLSI/ProjetosQuartus/fibonacci/fibonacci_testbench3.v
+FD:/Dropbox/GraduacaoEC/Cadeiras/2023.2/VLSI/ProjetosQuartus/fibonacci/fibonacci_testbench3.v
+L0 3
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1697508505.499000
+!s107 D:/Dropbox/GraduacaoEC/Cadeiras/2023.2/VLSI/ProjetosQuartus/fibonacci/fibonacci_testbench3.v|
+!s90 -reportprogress|300|-work|work|D:/Dropbox/GraduacaoEC/Cadeiras/2023.2/VLSI/ProjetosQuartus/fibonacci/fibonacci_testbench3.v|
+!s101 -O0
+o-work work -O0
