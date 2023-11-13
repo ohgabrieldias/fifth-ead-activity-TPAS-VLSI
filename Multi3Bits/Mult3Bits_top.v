@@ -1,4 +1,8 @@
-`timescale 1ns/1ns
+// # MIT License
+// # Copyright (c) [2023] [Pedro Antonio]
+// # See LICENSE file for full license text.
+
+`timescale 1ns/1ps
 
 module Mult3Bits_top #(parameter WIDTH=3)(
   input [WIDTH-1:0] m,
@@ -14,7 +18,7 @@ module Mult3Bits_top #(parameter WIDTH=3)(
   output reg [(WIDTH*2)-1:0] R
 );
 
-  // Instância da FSM
+  // Instï¿½ncia da FSM
   Mult3BitsFSM #(WIDTH) fsm_inst (
     .m(m),
     .M(M),
@@ -29,7 +33,7 @@ module Mult3Bits_top #(parameter WIDTH=3)(
     .R(R)
   );
 
-  // Instância da Parte Operativa
+  // Instï¿½ncia da Parte Operativa
   MultPO #(WIDTH) po_inst (
     .m(m),
     .M(M),

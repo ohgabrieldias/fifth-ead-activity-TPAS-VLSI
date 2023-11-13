@@ -1,8 +1,12 @@
-`timescale 1ns/1ns
+// # MIT License
+// # Copyright (c) [2023] [Pedro Antonio]
+// # See LICENSE file for full license text.
+
+`timescale 1ns/1ps
 
 module Mult3Bits_tb;
 
-  // Parâmetros
+  // Parï¿½metros
   parameter WIDTH = 3;
 
   // Sinais de entrada
@@ -15,12 +19,12 @@ module Mult3Bits_tb;
   reg en1;
   reg en2;
 
-  // Sinais de saída
+  // Sinais de saï¿½da
   wire ProxBit_m;
   wire [1:0] CountOut;
   wire [(WIDTH*2)-1:0] R;
 
-  // Instância da FSM
+  // Instï¿½ncia da FSM
   Mult3BitsFSM #(WIDTH) fsm_inst (
     .m(m),
     .M(M),
@@ -35,12 +39,12 @@ module Mult3Bits_tb;
     .R(R)
   );
 
-  // Geração de clock
+  // Geraï¿½ï¿½o de clock
   always #5 clk = ~clk;
 
-  // Inicialização
+  // Inicializaï¿½ï¿½o
   initial begin
-    // Inicialização de sinais
+    // Inicializaï¿½ï¿½o de sinais
     m = 3'b001;
     M = 6'b000100;
     clk = 0;
